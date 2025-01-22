@@ -5,7 +5,7 @@
 + **Producer**: Responsible for sending messages to topics for Consumers to process.  
 + **Bootstrap Server**: Acts as a bridge, facilitating communication between Producers and Consumers. It helps manage the connection to the Kafka cluster.  
 
-### Additional Points:
+### Additional Points (The configuration is missing in this repository):
 - **Topic**: A category to which records are sent by Producers. Consumers subscribe to topics to receive relevant data.
 - **Partition**: Each topic can be divided into multiple partitions, allowing for parallel processing and scalability.
 - **Broker**: A Kafka server responsible for storing and serving data to Producers and Consumers. Multiple brokers form a Kafka cluster.
